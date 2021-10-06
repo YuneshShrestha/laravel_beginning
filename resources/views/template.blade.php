@@ -7,7 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-
+  
+    <link rel="stylesheet" href="{{ asset('style.css') }}">
     <title>Hello, world!</title>
     <style>
       *{
@@ -38,31 +39,34 @@
               {{-- Creating a place to store --}}
               @yield('body')
           </main>
+        
           <footer class="bg-dark text-white py-2">
-            <div class="row container">
-              <div class="col-md-4">
-                <h4>ABOUT US</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nulla quae nobis beatae natus esse explicabo eum vero perferendis iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus fugit molestias culpa voluptate 
-                </p>
-              </div>
-              <div class="col-md-4">
-                <h4>QUICK LINKS</h4>
-                <ul>
-                  <li>Facebook</li>
-                  <li>Twitter</li>
-                  <li>Facebook</li>
-                  <li>Twitter</li>
-                </ul>
-              </div>
-              <div class="col-md-4">
-                <h4>QUICK LINKS</h4>
-                <ul>
-                  <li>Facebook</li>
-                  <li>Twitter</li>
-                  <li>Facebook</li>
-                  <li>Twitter</li>
-                </ul>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <h4>ABOUT US</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nulla quae nobis beatae natus esse explicabo eum vero perferendis iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus fugit molestias culpa voluptate 
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <h4>QUICK LINKS</h4>
+                  <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h4>QUICK LINKS</h4>
+                  <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </footer>
