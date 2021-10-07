@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,9 +18,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.home');
 });
+Route::get('/about', [PageController::class, 'about']);
+Route::get('/service', [PageController::class, 'service']);
+Route::get('/gallery',[PageController::class, 'gallery']);
 // its just for static website to show detials
-Route::view('/service', 'frontend.service');
-Route::view('/about', 'frontend.about');
-Route::view('/gallery', 'frontend.gallery');
+// Route::view('/service', 'frontend.service');
+
+// Route::view('/gallery', 'frontend.gallery');
 
 
