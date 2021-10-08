@@ -18,6 +18,9 @@
           <li class="nav-item">
             <a class="nav-link text-white" href="/gallery">Gallery</a>
           </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link btn btn-outline-warning nav-pills text-white" href="/table_list">Add</a>
+          </li>
         </ul>
       </div>
     </div>

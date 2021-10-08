@@ -27,7 +27,7 @@
   </div>
   <div class="container py-2">
     <div class="cards">
-      <div class="row">
+      <div class="row gy-2">
         <div class="col-md-4">
             
             @section('title')
